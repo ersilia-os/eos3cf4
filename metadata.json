@@ -3,7 +3,7 @@
     "Slug": "molfeat-chemgpt",
     "Status": "In progress",
     "Title": "ChemGPT-4.7",
-    "Description": "ChemGPT (4.7M params) is a transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset.",
+    "Description": "ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search.",
     "Mode": "Pretrained",
     "Task": ["Representation"],
     "Input": ["Compound"],
