@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos3cf4",
+    "Slug": "molfeat-chemgpt",
+    "Status": "In progress",
+    "Title": "ChemGPT-4.7",
+    "Description": "ChemGPT (4.7M params) is a transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,12 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Descriptor",
+        "Chemical language model",
+        "Embedding"
+    ],
+    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5",
+    "Source Code": "https://molfeat.datamol.io/featurizers/ChemGPT-4.7M",
+    "License": "Apache-2.0"
 }
