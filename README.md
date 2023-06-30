@@ -23,6 +23,11 @@ ChemGPT (4.7M params) is a language-based transformer model for generative molec
 * [Source Code](https://molfeat.datamol.io/featurizers/ChemGPT-4.7M)
 * Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos3cf4)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos3cf4) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
