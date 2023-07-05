@@ -1,6 +1,7 @@
 FROM bentoml/model-server:0.11.0-py38
 MAINTAINER ersilia
 
+RUN pip install pydantic==1.10.10
 RUN pip install rdkit
 RUN pip install molfeat
 RUN pip install transformers
