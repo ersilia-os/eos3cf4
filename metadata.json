@@ -3,22 +3,26 @@
     "Slug": "molfeat-chemgpt",
     "Status": "Ready",
     "Title": "ChemGPT-4.7",
-    "Description": "ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search.",
-    "Mode": "Pretrained",
-    "Task": [
-        "Representation"
-    ],
+    "Description": "ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search. Here we provide the implementation by DataMol.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Output": [
         "Descriptor"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 128,
+    "Output Consistency": "Fixed",
     "Interpretation": "128 features based on a chemical language model",
     "Tag": [
         "Descriptor",
@@ -26,13 +30,20 @@
         "Chemical graph model",
         "Embedding"
     ],
-    "Publication": "https://chemrxiv.org/engage/chemrxiv/article-details/627bddd544bdd532395fb4b5",
+    "Publication": "https://www.nature.com/articles/s42256-023-00740-3",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2023,
     "Source Code": "https://molfeat.datamol.io/featurizers/ChemGPT-4.7M",
     "License": "Apache-2.0",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip",
+    "Contributor": "GemmaTuron",
+    "Incorporation Date": "2023-04-11",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3cf4",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip",
+    "Deployment": [
+        "Local"
     ]
 }
