@@ -3,21 +3,18 @@
     "Slug": "molfeat-chemgpt",
     "Status": "Ready",
     "Title": "ChemGPT-4.7",
-    "Description": "ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search. Here we provide the implementation by DataMol.\n",
+    "Description": "ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search. Here we provide the implementation by DataMol.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Descriptor"
     ],
@@ -30,20 +27,23 @@
         "Chemical graph model",
         "Embedding"
     ],
-    "Publication": "https://www.nature.com/articles/s42256-023-00740-3",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2023,
+    "Publication": "https://www.nature.com/articles/s42256-023-00740-3",
     "Source Code": "https://molfeat.datamol.io/featurizers/ChemGPT-4.7M",
     "License": "Apache-2.0",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-11",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3cf4",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip",
-    "Deployment": [
-        "Local"
     ]
 }
