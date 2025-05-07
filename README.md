@@ -50,7 +50,12 @@ _10 of 128 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `6306`
+- **Image Size (Mb):** `6365.86`
 
+**Computational Performance (seconds):**
+- 10 inputs: `114.3`
+- 100 inputs: `114.68`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/ChemGPT-4.7M](https://molfeat.datamol.io/featurizers/ChemGPT-4.7M)
