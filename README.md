@@ -4,6 +4,7 @@ ChemGPT (4.7M params) is a language-based transformer model for generative molec
 
 This model was incorporated on 2023-04-11.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos3cf4`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-04-11.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`, `Chemical language model`, `Chemical graph model`, `Embedding`
 
 ### Input
