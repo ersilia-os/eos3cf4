@@ -40,6 +40,8 @@
     "License": "Apache-2.0",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-11",
+    "Last Packaging Date": "2025-12-03",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3cf4.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3cf4",
     "Docker Architecture": [
@@ -48,10 +50,10 @@
     ],
     "Model Size": 136.0,
     "Environment Size": 7860.0,
-    "Image Size": 6365.86,
-    "Computational Performance 1": 114.3,
-    "Computational Performance 2": 103.67,
-    "Computational Performance 3": 114.68,
-    "Computational Performance 4": 857.78,
-    "Computational Performance 5": -1.0
+    "Image Size": 7935.67,
+    "Computational Performance 1": 29.93,
+    "Computational Performance 2": 19.37,
+    "Computational Performance 3": 19.78,
+    "Computational Performance 4": 45.59,
+    "Computational Performance 5": 167.44
 }
