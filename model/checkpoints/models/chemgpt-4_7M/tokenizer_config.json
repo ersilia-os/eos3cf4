@@ -1,0 +1,1 @@
+{"special_tokens_map_file": "/data1/groups/ai4bio_shared/molecules/tokenizers/pubchem10M_tokenizer/special_tokens_map.json", "name_or_path": "/data1/groups/ai4bio_shared/molecules/tokenizers/pubchem10M_tokenizer/", "tokenizer_class": "PreTrainedTokenizerFast"}
