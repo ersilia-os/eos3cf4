@@ -2,8 +2,7 @@
 
 ChemGPT (4.7M params) is a language-based transformer model for generative molecular modeling, which was pretrained on the PubChem10M dataset. Pre-trained ChemGPT models are also robust, self-supervised representation learners that generalize to previously unseen regions of chemical space and enable embedding-based nearest-neighbor search. Here we provide the implementation by DataMol.
 
-This model was incorporated on 2023-04-11.
-
+This model was incorporated on 2023-04-11.Last packaged on 2025-12-03.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 128 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `136`
 - **Environment Size (Mb):** `7860`
-- **Image Size (Mb):** `6365.86`
+- **Image Size (Mb):** `7935.67`
 
 **Computational Performance (seconds):**
-- 10 inputs: `114.3`
-- 100 inputs: `114.68`
-- 10000 inputs: `-1`
+- 10 inputs: `29.93`
+- 100 inputs: `19.78`
+- 10000 inputs: `167.44`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/ChemGPT-4.7M](https://molfeat.datamol.io/featurizers/ChemGPT-4.7M)
